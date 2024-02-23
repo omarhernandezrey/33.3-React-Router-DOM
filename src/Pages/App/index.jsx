@@ -11,13 +11,13 @@ import './App.css'
 function App() {
 
   const settings = {
-    dots:true,
-    infinite: true,
-    speed:200,   
-    autoplaySpeed:20,
-    autoplay: true,
-    slideToShow: 3,
-    slideToScroll: 1
+    dots:true, // Muestra los puntos de navegación en el carrusel
+    infinite: true,// Permite que el carrusel avance infinitamente en un ciclo
+    speed:5000,// Define la velocidad de transición entre diapositivas en milisegundos
+    autoplaySpeed:20,// Define la velocidad de reproducción automática en milisegundos
+    autoplay: true,// Habilita la reproducción automática del carrusel
+    slideToShow: 3,// Define cuántas diapositivas se mostrarán simultáneamente
+    slideToScroll: 1// Define cuántas diapositivas se desplazarán al avanzar o retroceder
   }
 
   return (
@@ -62,17 +62,17 @@ function App() {
 const data = [
   {
     name: `Diego De Granda`,
-    img: `../src/assets/Photos/diego.jpg`,
+    img: `/src/assets/Fotos/OG_Diego-De-Granda.png`,
     review:`Mexican developer`,
   },
   {
     name: `Brais Moure`,
-    img: `../src/assets/Photos/brais.png`,
+    img: `/src/assets/Fotos/Brais Moure.png`,
     review:`Spaniard developer`,
   },
   {
     name: `Miguel Ángel Durán`,
-    img: `../src/assets/Photos/MADuran.png`,
+    img: `/src/assets/Fotos/Miguel Ángel Durán.jpg`,
     review:`Spaniard developer`,
   },
 ];
